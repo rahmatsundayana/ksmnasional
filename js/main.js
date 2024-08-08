@@ -143,10 +143,10 @@ jQuery(document).ready(function( $ ) {
   })
 
 // custom code
-const text = "Selamat Datang<br><span class='highlight'>KSM Nasional</span> Maluku Utara";
+const text = "Selamat Datang Peserta<br><span class='highlight'>KSM Nasional dan Myres</span>";
 const typingElement = $('#typing-text');
 let index = 0;
-const speed = 100;
+const speed = 98;
 
 function type() {
     if (index < text.length) {
